@@ -1,4 +1,4 @@
-import transfom
+import transform
 
 
 def main():
@@ -12,11 +12,11 @@ def main():
     opcio = input("opció escollida: ")
 
     if opcio == "1":
-        print(transfom.to_upper_case(string))
+        print(transform.to_upper_case(string))
     elif opcio == "2":
-        print(transfom.to_lower_case(string))
+        print(transform.to_lower_case(string))
     elif opcio == "3":
-        print(transfom.to_capitalize(string))
+        print(transform.to_capitalize(string))
     else:
         print("opció no reconegudda")
 
