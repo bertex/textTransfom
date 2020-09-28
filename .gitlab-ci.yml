@@ -17,7 +17,7 @@ pylint:
   script:
   - pylint -d C0301 main.py transform.py
 unit-tests:
-      stage: test
+      stage: Test
       script:
         - python -m unittest discover
         - coverage report -m
